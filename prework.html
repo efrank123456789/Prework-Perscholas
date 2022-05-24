@@ -25,13 +25,26 @@
 		<a href="pages/stories.html"> stories </a>
 		<a href="">contact</a>
 	</nav>
-	div id="div2">
+	div.static {
+		position: static;
+		border: 3px solid #73AD21;
+	  }
+		
 	<p>Hello, I joined this course to help prepare for a software engineering career. I have little to no experience with programming. Some of my hobbies are gaming and collecting comic books.</p>
     <img src="https://cdn-images-1.medium.com/max/1200/1*-WT1kYQC77B7qigAKIHXYA.png">
     
     <a href=#>https://youtu.be/qipZ6h4S--c</a>
 </div>
 <body>
+	div.fixed {
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		width: 300px;
+		border: 3px solid #73AD21;
+	  }
+	
+	
 	<iframe width="560" height="315"
 	src="https://www.youtube.com/embed/g1UVhexTLWU"
 	frameborder="0" allow ="acceleromater; autoplay" clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
@@ -51,7 +64,7 @@
 		<ol>
 			<li>Chicken</li>
 			<li>steak</li>
-			<style type="text/css"
+			<style type="text/css">
 			h1{
 				color: blue;
 			}
@@ -59,7 +72,7 @@
 				color:green;
 			}
 		</style>
-		</ol>
+		<ol>
     	<table width="50%" border= solid>
     		<tr>
     			<th> First Name</th>
@@ -83,15 +96,21 @@
 		<input type="text" name="lastname"> <br>
 		
 		
-		Color <br>
-		<input type="text" name="Color" value="Bisque">
-		Bisque <br>
-		<input type="radio" name="Color" value="Blue">
-		Blue <br>
-		<input type="button" name="submit" value = "submit">
-		</form>
+		<h2>HTML Forms</h2>
 
-		<input
+<form action="/action_page.php">
+  
+  <input type="text" id="lname" name="lname" value=""><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+
+
+</body>
+</html>
+
+
+	
 	</form>
 </body>
 
